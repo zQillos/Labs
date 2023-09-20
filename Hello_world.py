@@ -1,1 +1,2 @@
-print("Hello World")
+with open("output.txt", "w") as file:
+    file.write("Hello World")
